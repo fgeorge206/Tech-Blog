@@ -1,0 +1,11 @@
+<h1>homepage</h1>
+<h2>All Posts</h2>
+
+<ul>
+{{#each allPosts}}
+<section>
+    <h2>{{User.username}}</h2>
+    <p> text: {{post}}</p>
+</section>
+{{/each}}
+</ul>
