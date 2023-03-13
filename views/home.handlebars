@@ -1,11 +1,11 @@
 <h1>homepage</h1>
 <h2>All Posts</h2>
 
-<ul>
+<ul class="container">
 {{#each allPosts}}
-<section>
-    <h2>{{User.username}}</h2>
-    <p> text: {{post}}</p>
+<section class="card m-3 p-2">
+    <h5>Posted by {{User.username}}</h5>
+    <p> {{post}}</p>
 </section>
 {{/each}}
 </ul>

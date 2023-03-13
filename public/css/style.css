@@ -7,10 +7,12 @@
 
 header,footer {
     height: 15vh;
-    background-color: bisque;
+    background-color: rgb(121, 87, 74);
+    display: flex;
+    justify-content: space-around;
 }
 
 main {
     min-height: 70vh;
-    background-color: cornflowerblue;
+    background-color: rgb(56, 99, 67);
 }

@@ -1,9 +1,17 @@
 <h1>Login</h1>
 
-<form id="loginForm">
-    <input type="text" id="loginUsername" placeholder="username">
-    <input type="password" id="loginPassword" placeholder="password" >
-    <button>Login</button>
-</form>
+<div class="container">
+    <form class="container" id="loginForm">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Username</label>
+            <input type="username" class="form-control" id="loginUsername">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="loginPassword">
+        </div>
+        <button type="Login" class="btn btn-primary">Login</button>
+    </form>
+</div>
 
 <script src="js/login.js"></script>

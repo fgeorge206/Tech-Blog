@@ -1,1 +1,16 @@
-<h1>Profile</h1>
+<main class="container">
+    <h1>Welcome back, {{username}}!</h1>
+    <h2>Add a post</h2>
+    <form id="new-post-form">
+        <textarea id="post-input"></textarea>
+        <button>post!</button>
+    </form>
+    <h2>my posts</h2>
+    {{#each Posts}}
+        <section class="post-box">
+        <p class="card">  {{post}}</p>
+    </section>
+    {{/each}}
+</main>
+
+<script src="/js/profile.js"></script>

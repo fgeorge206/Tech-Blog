@@ -26,6 +26,7 @@ router.post("/",(req,res)=>{
     }
     console.log(req.body);
     Post.create({
+        title:req.body.title,
         post:req.body.post,
         UserId:req.session.userId
     }).then(postData=>{
