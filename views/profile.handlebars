@@ -2,14 +2,22 @@
     <h1>Welcome back, {{username}}!</h1>
     <h2>Add a post</h2>
     <form id="new-post-form">
-        <textarea id="post-input"></textarea>
-        <button>post!</button>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input class="form-control" id="title-input" placeholder="Title">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="post-input" rows="3" placeholder="Text area"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Post!</button>
     </form>
     <h2>my posts</h2>
     {{#each Posts}}
-        <section class="post-box">
-        <p class="card">  {{post}}</p>
-    </section>
+        <section class="card">
+            <h4>{{title}}</h4>
+            <p class="">  {{post}}</p>
+        </section>
     {{/each}}
 </main>
 

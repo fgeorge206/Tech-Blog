@@ -5,14 +5,39 @@
     font-family: sans-serif;
 }
 
-header,footer {
+header {
     height: 15vh;
-    background-color: rgb(121, 87, 74);
+    background-color: rgb(73, 45, 28);
     display: flex;
     justify-content: space-around;
 }
 
+nav a {
+    color: rgb(96, 189, 150);
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 20px;
+}
+a:link{
+    text-decoration: none;
+}
+
+.headtitle {
+    color: rgb(73, 45, 28);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
 main {
     min-height: 70vh;
-    background-color: rgb(56, 99, 67);
+    background-color: rgb(96, 189, 150);
+}
+
+footer {
+    height: 15vh;
+    background-color: rgb(96, 189, 150);
+    display: flex;
+    justify-content: space-around;
 }

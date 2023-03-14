@@ -1,10 +1,9 @@
-<h1>homepage</h1>
-<h2>All Posts</h2>
-
 <ul class="container">
+<h1>All Posts</h1>
 {{#each allPosts}}
 <section class="card m-3 p-2">
-    <h5>Posted by {{User.username}}</h5>
+    <h5 class="text-end">Posted by {{User.username}}</h5>
+    <h4>{{title}}</h4>
     <p> {{post}}</p>
 </section>
 {{/each}}
