@@ -7,4 +7,4 @@ This Tech blog helped me practice using everything i've learned so far about bac
 This application is deployed on heroku.
 
 ## Usage
-![gif]
+![Tech Blog](https://user-images.githubusercontent.com/120420050/224884430-af7ca226-dc28-48d4-b3ea-d701942350a9.gif)
