@@ -8,3 +8,6 @@ This application is deployed on heroku. https://this-is-a-tech-blog.herokuapp.co
 
 ## Usage
 ![Tech Blog](https://user-images.githubusercontent.com/120420050/224884430-af7ca226-dc28-48d4-b3ea-d701942350a9.gif)
+
+## Credits
+Thank you <a href="https://github.com/claricetran">Clarice Tran</a> for helping with this assignment.
